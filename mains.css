@@ -1,0 +1,67 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: navy;
+    color: white;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: white;
+    color: navy;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-projetos .nav-link.active:hover{
+    color: white;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.carousel img{
+    height: 530px;
+}
+
+#sobre-a-empresa,
+#projetos{
+    background-color: rgb(55, 102, 255);
+}
+
+.section-title{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
+.text-colored{
+    color: navy;
+}
+
+.nav-projetos .nav-link.active,
+#fale-conosco button{
+    background-color:navy;
+    color: white;
+}
+
+.nav-projetos .nav-link:hover{
+    color:navy;
+}
+
+.social-links li,
+.partners li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a,
+.partners li a{
+    text-decoration: none;
+}
+
+.partners img{
+    height: 40px;
+}

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CelestialSpace</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./mains.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-3 fw-bold">CelestialSpace</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link active" href="#sobre-a-empresa">
+                            <i class="bi bi-house-door-fill me-1"></i>
+                            Sobre a empresa
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#areas-de-atuacao">
+                            <i class="bi bi-house-door me-1"></i>
+                            Áreas de atuação
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#projetos">
+                            <i class="bi bi-journals me-1"></i>
+                            Nossos projetos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-empresa">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item  active">
+                        <img class="w-100 " src="./images/carousel/earth-1365995.jpg" alt="Planeta Terra e Lua">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item ">
+                        <img class="w-100 " src="./images/carousel/mars-2051747_1920.png" alt="Planeta Marte">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item ">
+                        <img class="w-100 " src="./images/carousel/satellite-3977165_1920.jpg" alt="Satélite orbitando a Terra">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item ">
+                        <img class="w-100 " src="./images/carousel/spacecraft-441708_1920.jpg" alt="Foguete futurista viajando pelo espaço">
+                    </div>
+                </div>
+            </div>
+            <div class="pb-5 pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="w-100 d-block rounded" src="./images/empresa.jpg" alt="Foto do ambiente interno da empresa">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre a <span class="text-colored">CelestialSpace</span></h2>
+                            <p>
+                                StellarX é uma empresa líder no setor espacial, dedicada à exploração, inovação e avanço científico. Com uma equipe apaixonada por desvendar os segredos do universo, estamos comprometidos em impulsionar a tecnologia espacial para novos horizontes. Nossos projetos abrangem desde a colonização lunar até o turismo espacial, com o objetivo de expandir os limites da exploração humana e melhorar a conectividade global por meio de megaconstelações de comunicações. Na StellarX, estamos moldando o futuro da exploração espacial e trazendo os benefícios do espaço para a humanidade.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="areas-de-atuacao" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center ">Áreas de <span class="text-colored">atuação</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="areas col-md-4">
+                        <img src="images/Areas/foguete.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Exploração Espacial</h3>
+                        <p>
+                            Desenvolvendo tecnologias para colonização lunar e missões tripuladas a Marte, expandindo nossa presença no espaço.
+                        </p>
+                    </div> 
+                    <div class="areas col-md-4">
+                        <img src="images/Areas/satelites.jpg" alt="" class="d-block w-100  rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Satélites</h3>
+                        <p>
+                            Implantação de megaconstelações de comunicações e observatórios espaciais avançados para pesquisa científica e conectividade global.
+                        </p>
+                    </div>
+                    <div class="areas col-md-4">
+                        <img src="images/Areas/turismo-espacial.jpg" alt="" class="d-block w-100  rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Turismo Espacial</h3>
+                        <p>Oferecendo viagens suborbitais para turismo espacial e soluções logísticas para cargas pesadas, impulsionando o acesso e a exploração espacial.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projetos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">Projetos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-3">
+                        <nav class="nav nav-pills flex-column nav-projetos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#colonia-lua" class="fw-bold text-start nav-link text-colored active">Colonização Lunar</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#missao-marte" class="fw-bold text-start nav-link text-colored ">Missão Tripulada a Marte</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mega-constelacao" class="fw-bold text-start nav-link text-colored ">Megaconstelação de Comunicações</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#observatorio-espacial" class="fw-bold text-start nav-link text-colored ">Observatório Espacial Avançado</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#turismo-espaco" class="fw-bold text-start nav-link text-colored ">Viagens Suborbitais para Turismo Espacial</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#carga-pesada" class="fw-bold text-start nav-link text-colored ">Logística Espacial para Cargas Pesadas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="colonia-lua">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img class="w-100 rounded " src="images/Projetos/colonia-lua.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3 class="section-title">Colonização Lunar</h3>
+                                        <p>
+                                            Estabelecer uma base sustentável na Lua para a pesquisa científica e exploração contínua.
+                                            <br><br>Objetivos:
+                                        </p>
+                                        <ul>
+                                            <li>Desenvolver tecnologia de habitação lunar.</li>
+                                            <li>Estabelecer sistemas de suporte à vida autossustentáveis.</li>
+                                            <li>Realizar estudos sobre recursos lunares e seu aproveitamento.</li>
+                                        </ul>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="missao-marte">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img class="w-100 rounded " src="images/Projetos/colonia-marte.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3 class="section-title">Missão Tripulada a Marte</h3>
+                                        <p>
+                                            Enviar astronautas em uma missão tripulada a Marte, expandindo a exploração humana no espaço.
+                                            <br><br>Objetivos:
+                                        </p>
+                                        <ul>
+                                            <li>Desenvolver uma nave espacial segura e eficiente para viagens de longa duração.</li>
+                                            <li>Estudar os efeitos da viagem espacial prolongada na saúde dos astronautas.</li>
+                                            <li>Realizar pesquisas científicas em Marte e buscar evidências de vida passada ou presente.</li>
+                                        </ul>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mega-constelacao">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img class="w-100 rounded " src="images/Projetos/satelites.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3 class="section-title">Megaconstelação de Comunicações</h3>
+                                        <p>
+                                            Implantação de uma rede global de satélites de comunicação para melhorar a conectividade mundial.
+                                            <br><br>Objetivos:
+                                        </p>
+                                        <ul>
+                                            <li>Lançar e posicionar centenas de satélites em órbita terrestre.</li>
+                                            <li>Oferecer cobertura de internet de alta velocidade em áreas remotas e pouco atendidas.</li>
+                                            <li>Melhorar a comunicação global e facilitar a troca de informações.</li>
+                                        </ul>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="observatorio-espacial">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img class="w-100 rounded " src="images/Projetos/obs-espacial.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3 class="section-title">Observatório Espacial Avançado</h3>
+                                        <p>
+                                            Lançar um telescópio espacial avançado para pesquisas astronômicas de alta resolução.
+                                            <br><br>Objetivos:
+                                        </p>
+                                        <ul>
+                                            <li>Capturar imagens detalhadas do universo em diferentes faixas espectrais.</li>
+                                            <li>Coletar dados para pesquisas sobre a formação de galáxias e exoplanetas.</li>
+                                            <li>Aprofundar o conhecimento sobre a composição e a evolução do universo.</li>
+                                        </ul>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="turismo-espaco">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img class="w-100 rounded " src="images/Projetos/turismo-espacial.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3 class="section-title">Viagens Suborbitais para Turismo Espacial</h3>
+                                        <p>
+                                            Oferecer voos suborbitais para turistas que desejam experimentar a sensação de estar no espaço.
+                                            <br><br>Objetivos:
+                                        </p>
+                                        <ul>
+                                            <li>Construir e certificar veículos espaciais seguros e confortáveis.</li>
+                                            <li>Proporcionar vistas panorâmicas da Terra e experiências de gravidade zero.</li>
+                                            <li>Tornar o turismo espacial acessível para uma ampla gama de pessoas.</li>
+                                        </ul>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="carga-pesada">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img class="w-100 rounded " src="images/Projetos/carga-pesada.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3 class="section-title">Logística Espacial para Cargas Pesadas</h3>
+                                        <p>
+                                            Desenvolver veículos de lançamento capazes de transportar cargas pesadas para o espaço.
+                                            <br><br>Objetivos:
+                                        </p>
+                                        <ul>
+                                            <li>Criar uma solução eficiente para o lançamento de satélites de grande porte.</li>
+                                            <li>Oferecer serviços de transporte espacial para equipamentos e cargas pesadas.</li>
+                                            <li>Contribuir para o avanço da exploração espacial e a construção de infraestrutura no espaço.</li>
+                                        </ul>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored"  for="nome">Seu nome:</label>
+                                <input type="text" required id="nome" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored"  for="email">Seu email:</label>
+                                <input type="email" required id="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="telefone">Seu telefone:</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4 mt-5 mt-md-0 social-links">
+                        <div class="row">
+                            <div class="text-center">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>                                
+                                    Redes Sociais</h3>
+                                <ul>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored "></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1 ">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored "></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored "></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-twitter text-colored "></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-youtube text-colored "></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço</h3>
+                                <p>Rua Estelar, 123<br>
+                                    Bairro Cosmonauta<br>
+                                    Cidade Espaçópolis<br>
+                                    Estado Estelânia<br>
+                                    CEP: 12345-678<br>
+                                    Brasil</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 partners">
+                        <div class="text-center">
+                            <div class="row mt-4 mt-md-0">
+                                <h3 class="section-title fs-4 text-colored">Nossos Parceiros</h3>
+                            </div>
+                            <div class="row">
+                                <ul>
+                                    <li class="fs-5">
+                                        <img src="images/Parceiros/NASA-Logo-PNG6.png" alt="">
+                                    </li>
+                                    <li class="fs-5 me-3 ">
+                                        <img src="images/Parceiros/Batman_(12).png" alt="">
+                                    </li>
+                                    <li class="fs-5 ">
+                                        <img src="images/Parceiros/Avengers-Logo-PNG11.png" alt="">
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
